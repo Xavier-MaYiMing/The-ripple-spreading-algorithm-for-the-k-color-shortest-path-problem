@@ -24,8 +24,7 @@ The $k$-color shortest path problem ($k$-CSPP) aims to find the shortest path th
 | Omega         | Dictionary, Omega[n] = i denotes that ripple i is generated at node n |
 
 #### Example
-
-![k-CSPP example](C:\Users\dell\Desktop\研究生\个人算法主页\The ripple-spreading algorithm for the k-color shortest path problem\k-CSPP example.png)
+![image](https://github.com/Xavier-MaYiMing/The-ripple-spreading-algorithm-for-the-k-color-shortest-path-problem/blob/main/k-CSPP%20example.png)
 
 ```python
 if __name__ == '__main__':
