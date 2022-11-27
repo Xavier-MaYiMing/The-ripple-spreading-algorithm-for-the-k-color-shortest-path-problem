@@ -21,7 +21,7 @@ The $k$-color shortest path problem ($k$-CSPP) aims to find the shortest path th
 | active_set    | List, active_set contains all active ripples                 |
 | objective_set | List, the objective value of the traveling path of the i-th ripple is objective_set[i] |
 | color_set     | List, the colors traversed by the traveling path of the i-th ripple is color_set[i] |
-| Omega         | Dictionary, Omega[n] = i denotes that ripple i is generated at node n |
+| omega         | Dictionary, omega[n] = i denotes that ripple i is generated at node n |
 
 #### Example
 ![image](https://github.com/Xavier-MaYiMing/The-ripple-spreading-algorithm-for-the-k-color-shortest-path-problem/blob/main/k-CSPP%20example.png)
