@@ -6,12 +6,12 @@ The $k$-color shortest path problem ($k$-CSPP) aims to find the shortest path th
 
 | Variables     | Meaning                                                      |
 | ------------- | ------------------------------------------------------------ |
-| network       | Dictionary, {node 1: {node 2: [weight 1, weight 2, ...], ...}, ...} |
+| network       | {node 1: {node 2: [length, color], ...}, ...}                |
 | source        | The source node                                              |
 | destination   | The destination node                                         |
 | k             | The maximum number of colors traversed by the path           |
 | nn            | The number of nodes                                          |
-| neighbor      | Dictionary, {node 1: {node 2: [length, color], ...}, ...}    |
+| neighbor      | Dictionary, [[the neighbor nodes of node 1], [the neighbor nodes of node 2], ...]    |
 | v             | The ripple-spreading speed (i.e., the minimum length of arcs) |
 | t             | The simulated time index                                     |
 | nr            | The number of ripples - 1                                    |
